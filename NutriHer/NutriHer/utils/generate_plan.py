@@ -26,10 +26,13 @@ def generate_plan(goal, age):
         df['goal'] = df['goal'].astype(str).str.strip().str.lower()
         goal = goal.strip().lower()
 
-        # Filter by goal
+        # Debug prints
+        print("Looking for goal:", goal)
+        print("Available goals in CSV:", df['goal'].unique())
+
         match = df[df['goal'] == goal]
 
-        # Now filter by age range
+        # Age match
         def age_in_range(row):
             try:
                 start, end = map(int, row['age_range'].split('-'))
@@ -38,6 +41,9 @@ def generate_plan(goal, age):
                 return False
 
         match = match[match.apply(age_in_range, axis=1)]
+
+        # Print matches for debugging
+        print(f"Found {len(match)} match(es) for goal '{goal}' and age {age}")
 
         if not match.empty:
             row = match.iloc[0]
