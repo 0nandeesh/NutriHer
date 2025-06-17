@@ -1,0 +1,24 @@
+goal,age_range,breakfast,lunch,dinner,snacks,macros,alternatives
+Hormonal Balance,35-40,Soy milk smoothie + flaxseeds,Tofu bhurji + multigrain roti,Mixed veg soup + paneer cubes,Walnuts + dates,"Protein: 70g, Carbs: 180g, Fat: 60g",Breakfast: Chia pudding | Lunch: Rajma chawal | Dinner: Palak paneer + roti
+Hormonal Balance,41-45,Almond milk oats + berries,Quinoa + chana stir-fry,Methi paratha + curd,Roasted pumpkin seeds + figs,"Protein: 68g, Carbs: 170g, Fat: 58g",Breakfast: Smoothie bowl | Lunch: Moong dal + brown rice | Dinner: Lauki sabzi + roti
+Hormonal Balance,46-50,Chia seed pudding + soy milk,Vegetable dalia,Palak dal + jeera rice,Ragi ladoo + herbal tea,"Protein: 65g, Carbs: 160g, Fat: 55g",Breakfast: Idli + sambhar | Lunch: Khichdi + curd | Dinner: Methi thepla + chutney
+
+Weight Loss,35-40,Oats + Greek yogurt,Grilled chicken + leafy salad,Steamed fish + vegetables,Cucumber + green tea,"Protein: 90g, Carbs: 120g, Fat: 40g",Breakfast: Smoothie bowl | Lunch: Moong dal + brown rice | Dinner: Vegetable stew
+Weight Loss,41-45,Chickpea salad + lemon juice,Lentil soup + quinoa,Tofu stir-fry + roti,Roasted almonds + herbal tea,"Protein: 85g, Carbs: 110g, Fat: 38g",Breakfast: Poha | Lunch: Veg pulao | Dinner: Palak dal
+Weight Loss,46-50,Ragi porridge + flaxseeds,Bajra roti + sabzi,Grilled paneer + sautéed spinach,Apple slices + buttermilk,"Protein: 80g, Carbs: 100g, Fat: 35g",Breakfast: Boiled eggs | Lunch: Rajma rice | Dinner: Khichdi
+
+Iron Deficiency,35-40,Beetroot smoothie + chia seeds,Palak dal + brown rice,Methi thepla + curd,Roasted chana + dates,"Protein: 60g, Carbs: 200g, Fat: 50g",Breakfast: Ragi porridge | Lunch: Rajma + rice | Dinner: Bajra roti + lauki sabzi
+Iron Deficiency,41-45,Ragi dosa + peanut chutney,Spinach rice + dal,Beetroot curry + phulka,Black raisins + walnuts,"Protein: 65g, Carbs: 190g, Fat: 48g",Breakfast: Idli + sambhar | Lunch: Palak khichdi | Dinner: Masoor dal
+Iron Deficiency,46-50,Spinach smoothie + sesame seeds,Masoor dal + jowar roti,Sarson saag + makki roti,Pumpkin seeds + figs,"Protein: 60g, Carbs: 180g, Fat: 45g",Breakfast: Dalia + flaxseeds | Lunch: Moong dal + rice | Dinner: Vegetable upma
+
+Digestive Health,35-40,Papaya + curd + soaked almonds,Khichdi with ghee,Vegetable stew + rice + buttermilk,Amla candy + fennel seeds,"Protein: 55g, Carbs: 180g, Fat: 45g",Breakfast: Banana + peanut butter | Lunch: Veg pulao | Dinner: Moong dal khichdi
+Digestive Health,41-45,Dalia with banana + curd,Moong dal soup + rice,Lauki curry + jowar roti,Roasted fennel + ginger tea,"Protein: 52g, Carbs: 170g, Fat: 42g",Breakfast: Rice flakes + milk | Lunch: Sabudana khichdi | Dinner: Tinda sabzi
+Digestive Health,46-50,Steamed apples + cinnamon oats,Vegetable daliya + ajwain tadka,Spinach khichdi + curd,Soaked raisins + ajwain water,"Protein: 50g, Carbs: 160g, Fat: 40g",Breakfast: Soft idli + chutney | Lunch: Moong soup + rice | Dinner: Dhokla + mint chutney
+
+Energy Boosting,35-40,Multigrain toast + peanut butter + banana,Paneer bhurji + roti + salad,Quinoa pulao + curry,Trail mix + dates + coconut water,"Protein: 75g, Carbs: 230g, Fat: 60g",Breakfast: Besan chilla | Lunch: Sprouts salad + dal | Dinner: Rice + dal + ghee
+Energy Boosting,41-45,Banana smoothie + almonds,Chickpea curry + rice,Soya sabzi + jowar roti,Peanut chikki + fruit,"Protein: 70g, Carbs: 220g, Fat: 58g",Breakfast: Egg toast | Lunch: Rajma chawal | Dinner: Paneer curry + chapati
+Energy Boosting,46-50,Oats + jaggery + ghee,Millet khichdi + vegetables,Ragi dosa + sambar,Boiled sweet potato + dates,"Protein: 68g, Carbs: 210g, Fat: 55g",Breakfast: Poha + peanuts | Lunch: Dal rice + salad | Dinner: Vegetable soup
+
+Bone Health,35-40,Ragi porridge + almonds,Broccoli curry + tofu + millet roti,Dal makhani + jeera rice + curd,Sesame ladoo + buttermilk,"Protein: 80g, Carbs: 190g, Fat: 55g",Breakfast: Paneer paratha | Lunch: Palak paneer + roti | Dinner: Sambar + idli
+Bone Health,41-45,Paneer toast + nuts,Soya chunks curry + rice,Ragi dosa + curd,Dates + milk,"Protein: 78g, Carbs: 185g, Fat: 53g",Breakfast: Almond oats | Lunch: Rajma rice | Dinner: Lauki kofta
+Bone Health,46-50,Almond milk oats + figs,Bajra roti + methi curry,Dal soup + spinach rice,Fortified juice + seeds,"Protein: 75g, Carbs: 180g, Fat: 50g",Breakfast: Smoothie bowl | Lunch: Chole + rice | Dinner: Tofu curry + quinoa

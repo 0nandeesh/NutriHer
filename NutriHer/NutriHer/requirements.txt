@@ -1,0 +1,7 @@
+streamlit
+pandas
+scikit-learn
+firebase-admin
+streamlit
+streamlit-authenticator
+pandas

@@ -1,0 +1,11 @@
+age_range,lifestyle,health_concern,meal_plan,grocery_list
+35-45,Sedentary,Weight Gain,"Oats porridge, egg whites, dal, roti","oats, eggs, lentils, wheat"
+35-45,Active,Weight Gain,"Banana smoothie, paneer sandwich, sprouted salad","banana, paneer, sprouts, bread"
+45-55,Sedentary,Weight Gain,"Vegetable upma, dal khichdi, boiled veggies","semolina, rice, lentils, carrots"
+35-45,Active,Diabetes,"Ragi dosa, sautéed greens, buttermilk","ragi, spinach, buttermilk"
+45-55,Active,Diabetes,"Bajra roti, lauki sabzi, curd","bajra, bottle gourd, curd"
+35-45,Sedentary,Menopause,"Soy milk, mixed veg curry, roti","soy milk, mixed vegetables, wheat"
+45-55,Sedentary,Menopause,"Flaxseed smoothie, tofu bhurji, brown rice","flaxseed, tofu, rice"
+35-45,Active,Thyroid,"Quinoa salad, moong dal, methi paratha","quinoa, moong dal, fenugreek, wheat"
+45-55,Active,PCOS,"Oats smoothie, grilled paneer, veggie soup","oats, paneer, vegetables"
+35-45,Sedentary,PCOS,"Besan chilla, lauki curry, jeera rice","besan, bottle gourd, rice"
