@@ -22,47 +22,36 @@ def generate_plan(goal, age):
     try:
         df = pd.read_csv("data/predefined_diet_plans.csv")
 
-        # Normalize text
+        # Normalize goal
         df['goal'] = df['goal'].astype(str).str.strip().str.lower()
-        df['age_range'] = df['age_range'].astype(str).str.strip()
         goal = goal.strip().lower()
 
-        print("Looking for goal:", goal)
-        print("Available goals:", df['goal'].unique())
-
         # Filter by goal
-        goal_matches = df[df['goal'] == goal]
+        match = df[df['goal'] == goal]
 
-        if goal_matches.empty:
-            print("No matching goal found in CSV.")
-            return None
-
-        # Filter by age range
+        # Now filter by age range
         def age_in_range(row):
             try:
                 start, end = map(int, row['age_range'].split('-'))
                 return start <= age <= end
-            except Exception as e:
-                print("Error parsing age_range:", row['age_range'], "=>", e)
+            except:
                 return False
 
-        match = goal_matches[goal_matches.apply(age_in_range, axis=1)]
+        match = match[match.apply(age_in_range, axis=1)]
 
-        if match.empty:
-            print(f"No age match found for goal: {goal} and age: {age}")
-            return None
+        if not match.empty:
+            row = match.iloc[0]
+            return {
+                'breakfast': row.get('breakfast', 'N/A'),
+                'lunch': row.get('lunch', 'N/A'),
+                'dinner': row.get('dinner', 'N/A'),
+                'snacks': row.get('snacks', 'N/A'),
+                'macros': parse_macros(row.get('macros', '')),
+                'alternatives': parse_alternatives(row.get('alternatives', ''))
+            }
 
-        row = match.iloc[0]
-
-        return {
-            'breakfast': row.get('breakfast', 'N/A'),
-            'lunch': row.get('lunch', 'N/A'),
-            'dinner': row.get('dinner', 'N/A'),
-            'snacks': row.get('snacks', 'N/A'),
-            'macros': parse_macros(row.get('macros', '')),
-            'alternatives': parse_alternatives(row.get('alternatives', ''))
-        }
+        return None
 
     except Exception as e:
-        print("🔥 Error reading CSV or generating plan:", e)
-        return None
+        print(f"Error: {e}")
+        return None not fentching
